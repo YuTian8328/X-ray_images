@@ -12,8 +12,5 @@ Theoreically, computer-aided [patients triage](https://en.wikipedia.org/wiki/Tri
 
 # Method
 - Images are collected from my prior work, for deep learning it's a small dataset, so image augmentation and transfer learning is necessary process
-- K-fold cross validation will be applyed
-  - Shuffle the dataset randomly
-  - Split the dataset into k groups 
 - manually analyze miss classified samples and modify evaluation metrics or loss function, as severe samples being classified as moderate or mild should be avoided，otherwise moderate samples being classified as severe won't hurt that much
 - Libraries: Tensorflow, keras, imageio, PIL, numpy, matplotlib...
